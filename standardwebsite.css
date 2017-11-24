@@ -1,0 +1,130 @@
+		#container{
+			background-color: grey;
+			width: 100vw;
+			margin: 0px;
+			padding: 0px;
+			font-family: arial;
+
+		}
+			header{
+				/*position: fixed;*/
+				background-color: #232837;
+				height: 10vh;
+				width: 99.8vw;
+				padding: 0.1vw 0.1vh; 
+				color: white;	
+			}
+			/*#headerdummie{
+				height: 10vh;
+				width: 99.8vw;
+			}*/
+/*				header img{
+					position: fixed;
+					height: 10vh;
+					width: 10vw;
+					float: left;
+				}*/
+
+				header h1{
+					margin: 3vh auto;
+					text-align: center;
+
+				}
+			nav{
+				/*position: fixed;*/
+				background-color: #a77b33;
+				width: 100vw;
+			}
+				nav ul{
+					margin: 0px;
+					padding: 0px;
+					list-style: none;
+				}
+					nav ul li{
+					background-color: #a77b33;
+					width: 19.80vw;
+					text-align: center;
+					border:#d8a85a 1px solid;
+					color: white;
+					float: left;
+					}
+					nav ul li:hover{
+						background-color: #d8a85a;
+
+						border-right:#d8a85a 1px solid;
+						transition: .4s;
+					}
+/*			#middlehome{
+
+
+			}
+				#middlehome img{
+
+				}
+*/
+			#middle{
+			background-color: white;
+			/*width: 100vw;*/
+			}
+				#middleleft{
+					background-color: #a77b33;
+					height: 80vh;
+					width: 14.7vw;
+					float: left;
+					border: #d8a85a 1px solid;
+				}
+					#middleleft img{
+						margin-top: 4px;
+						height: 19vh;
+						width: 14.6vw;
+
+					}
+				#middlemiddle{
+					height: 80vh;
+					width: 70vw;
+					float: left;
+				}
+					#middlemiddle img {
+						height: 80vh;
+						width: 70vw;
+						border: #d8a85a 1px solid;
+					}
+
+					#middlemiddle #aboutblock{
+						margin-top: 10px;
+						margin-right: 10px;
+						margin-left: 10px;
+						margin-bottom: 10px;
+						background-color: white;
+						width: 31vw;
+						height: 35vh;
+						/*border: black solid 1px;*/
+						float: left;
+					}
+						#middlemiddle #aboutblock article img{
+							height:200px;
+							width:200px;
+							float: left;
+						}
+
+
+				#middleright{
+					background-color: #a77b33;
+					height: 80vh;
+					width: 14.7vw;
+					float: left;
+					border:#d8a85a 1px solid;
+				}
+					#middleright img{
+							margin-top: 4px;
+							height: 19vh;
+							width: 14.6vw;
+						}
+			footer{
+				background-color: #232837;
+				height: 10vh;
+				width: 100vw;
+				color: white;
+				text-align: center;	
+			}
+			
